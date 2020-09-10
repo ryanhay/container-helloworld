@@ -1,0 +1,7 @@
+# Ignore automatically generated files
+**/.next/**
+**/.build/**
+**/dist/**
+**/generated/**
+nexus.d.ts
+**/node_modules/**
