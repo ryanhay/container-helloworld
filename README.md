@@ -4,16 +4,17 @@
 
 ### Visibly Unique Instances
 
-Run container instances with visibly unique background color by setting the env variable `BG_COLOR` to a color like:
+Run container instances with visibly unique background color by setting the env variable
+`BG_COLOR` to a color like:
 
-  - Gray
-  - Red
-  - Orange
-  - Yellow
-  - Teal
-  - Blue
-  - Indigo
-  - Purple
-  - Pink
+- Gray
+- Red
+- Orange
+- Yellow
+- Teal
+- Blue
+- Indigo
+- Purple
+- Pink
 
-  `podman run -d -p 7000:3000 -e BG_COLOR=“blue” <container>`
+`podman run -d -p 7000:3000 -e BG_COLOR=“blue” <container_image>`

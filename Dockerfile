@@ -11,7 +11,7 @@ RUN yarn install
 
 RUN yarn build /app
 
-FROM node:14.9.0-alpine3.10 as prod
+FROM node:14-alpine as prod
 
 ENV PATH $PATH:/app/node_modules/.bin
 ENV NODE_ENV=production
